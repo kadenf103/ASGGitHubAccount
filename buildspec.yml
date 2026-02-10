@@ -1,5 +1,5 @@
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=ASGGitHubAccount -Dsonar.organization=kadenf103 -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
+      - mvn verify sonar:sonar -Dsonar.projectKey=ASGGitHubAccount -Dsonar.organization=kadenf103 -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=c1fcf4d345606ed5dddc20e246b52cbc5a89e7af
 
